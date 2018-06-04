@@ -28,6 +28,6 @@ RUN install2.r --error --deps TRUE \
 	bayesplot \
     rstanarm \
     rstantools \
-    shinystan \
+    cowplot \
     ggmcmc \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
